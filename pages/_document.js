@@ -4,8 +4,8 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-          <script
+        <Head />
+        {/* <script
             data-cfasync="false"
             type="text/javascript"
             src="https://cdn.judge.me/assets/installed.js"
@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
             src="/widget_preloader.js"
             async
           />
-        </Head>
+        </Head> */}
         <body>
           <Main />
           <NextScript />
